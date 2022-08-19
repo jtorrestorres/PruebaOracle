@@ -15,7 +15,7 @@ namespace PruebaOracle
             ML.Result result = new ML.Result();
 
 
-            try
+            try   
             {
                 using (OracleConnection context = new OracleConnection(DL.Conexion.GetConnectionString()))
                 {
